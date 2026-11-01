@@ -13,7 +13,7 @@ public:
         this->value = val;
         this->next = nullptr;
     }
-};
+}; 
 void input_list(Node* &head, Node* &tail, int val)
 {
     Node* newNode = new Node(val);
